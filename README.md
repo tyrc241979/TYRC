@@ -10,6 +10,14 @@ A Chrome WebXR reference app for a realistic interactive 3D cell-culture laborat
 - Desktop fallback controls: drag to look, WASD/arrow keys to move, click hotspots.
 - VR controls: enter VR on a compatible HTTPS origin, point a controller at a hotspot, and press select.
 
+## Preview link
+
+After starting the local server, open the app preview in Chrome:
+
+[Open VR lab preview](http://localhost:5173)
+
+For a production-style preview after building, run `npm run preview` and open [http://localhost:4173](http://localhost:4173).
+
 ## Run locally
 
 ```bash

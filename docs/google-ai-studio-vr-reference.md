@@ -1,6 +1,6 @@
 # Step-by-step Google AI Studio reference for the VR lab
 
-Use this guide to recreate or extend the WebXR cell-culture lab in Google AI Studio, then paste the generated code into this static WebXR project.
+Use this guide to recreate or extend the WebXR cell-culture lab in Google AI Studio, then paste the generated code into this static WebXR project. Preview the local app at [http://localhost:5173](http://localhost:5173) after running `npm run dev`.
 
 ## 1. Define the target
 
