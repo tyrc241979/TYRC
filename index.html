@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08111f" />
+    <title>Cell Culture VR Lab Reference</title>
+  </head>
+  <body>
+    <main id="app">
+      <section id="overlay" aria-label="VR lab guide">
+        <p class="eyebrow">Chrome WebXR • Google AI Studio Reference</p>
+        <h1>Cell Culture VR Lab</h1>
+        <p>
+          Explore a realistic 3D cell-culture training lab for VR headsets in Chrome.
+          Click hotspots on desktop/mobile, or enter VR and point-select the glowing targets.
+        </p>
+        <div class="actions">
+          <button id="start-tour">Start guided tour</button>
+          <a href="./docs/google-ai-studio-vr-reference.md">Build guide</a>
+        </div>
+        <p class="note">Use WASD / arrow keys to walk, drag to look, and click equipment hotspots.</p>
+      </section>
+      <aside id="info-panel" aria-live="polite">
+        <button id="close-panel" aria-label="Close information panel">×</button>
+        <h2 id="panel-title">Welcome</h2>
+        <p id="panel-body">Select a station to learn the storyboard step.</p>
+      </aside>
+    </main>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.181.0/build/three.module.js",
+          "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.181.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
